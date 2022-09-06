@@ -1,21 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".FirstFragment">
-
-    <TextView
-        android:id="@+id/textview_first"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/hello_world"
-        app:layout_constraintBottom_toTopOf="@id/button_first"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button_first"
@@ -24,6 +13,111 @@
         android:text="@string/next"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.862"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textview_first" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.922" />
+
+    <EditText
+        android:id="@+id/txt_number1"
+        android:layout_width="143dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="36dp"
+        android:ems="10"
+        android:hint="@string/number_1"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.079" />
+
+    <EditText
+        android:id="@+id/txt_number2"
+        android:layout_width="143dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="@string/number_2"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toEndOf="@+id/txt_number1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.079" />
+
+    <Button
+        android:id="@+id/btn_calculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/calculate"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button_first"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.922" />
+
+    <EditText
+        android:id="@+id/txt_res"
+        android:layout_width="329dp"
+        android:layout_height="155dp"
+        android:layout_marginBottom="132dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/rad_group"
+        android:layout_width="144dp"
+        android:layout_height="216dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.153"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_number1"
+        app:layout_constraintVertical_bias="0.15">
+
+        <RadioButton
+            android:id="@+id/rad_sum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sum" />
+
+        <RadioButton
+            android:id="@+id/rad_sub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/substract" />
+
+        <RadioButton
+            android:id="@+id/rad_multiply"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/multiply" />
+
+        <RadioButton
+            android:id="@+id/rad_divide"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/divide" />
+
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Suma"
+        tools:layout_editor_absoluteX="244dp"
+        tools:layout_editor_absoluteY="161dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resta"
+        tools:layout_editor_absoluteX="245dp"
+        tools:layout_editor_absoluteY="222dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

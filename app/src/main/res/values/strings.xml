@@ -17,4 +17,14 @@
     <string name="to_second_fragment">2do Fragmento</string>
     <string name="to_third_fragment">3er Fragmento</string>
     <string name="third_fragment">3er Fragmento</string>
+
+<!--    Strings for calculator-->
+
+    <string name="number_1">Número 1</string>
+    <string name="number_2">Número 2</string>
+    <string name="calculate">Calcular</string>
+    <string name="sum">Sumar</string>
+    <string name="substract">Restar</string>
+    <string name="divide">Dividir</string>
+    <string name="multiply">Multiplicar</string>
 </resources>
