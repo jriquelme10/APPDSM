@@ -2,8 +2,9 @@
     <string name="app_name">Clase3108</string>
     <string name="action_settings">Settings</string>
     <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
+    <string name="first_fragment_label">Primer Fragmento</string>
+    <string name="second_fragment_label">Segundo Fragmento</string>
+    <string name="third_fragment_label">Tercer Fragmento</string>
     <string name="next">Siguiente</string>
     <string name="previous">Previous</string>
 
