@@ -1,4 +1,4 @@
-package com.example.clase3108;
+package com.example.APPDSM;
 
 import android.os.Bundle;
 
@@ -13,7 +13,7 @@ import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
-import com.example.clase3108.databinding.ActivityMainBinding;
+import com.example.APPDSM.databinding.ActivityMainBinding;
 
 import android.view.Menu;
 import android.view.MenuItem;
