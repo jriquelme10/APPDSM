@@ -27,4 +27,6 @@
     <string name="substract">Restar</string>
     <string name="divide">Dividir</string>
     <string name="multiply">Multiplicar</string>
+
+    <string name="resultado">Resultado</string>
 </resources>

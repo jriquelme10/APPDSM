@@ -1,4 +1,4 @@
-package com.example.clase3108;
+package com.example.APPDSM;
 
 import android.os.Bundle;
 
@@ -9,7 +9,7 @@ import androidx.navigation.fragment.NavHostFragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import com.example.clase3108.databinding.FragmentThirdBinding;
+import com.example.APPDSM.databinding.FragmentThirdBinding;
 
 public class ThirdFragment extends Fragment {
 
